@@ -1,2 +1,2 @@
 # One-Time-Pad
-Client and server that communicate via socket based inter-process communication to encrypt and share text.
+Files include a ciphertext generator and the client and server daemons for performing both text encryption and decryption.
