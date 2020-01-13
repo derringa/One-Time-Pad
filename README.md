@@ -20,7 +20,7 @@ Each client receives a text, encrypted or decrypted depending on the client, alo
 * Each client produces its own unique signature that it's respective server expects to read in order to process the information.
 * Port number provided must match that of the server daemon.
 
-## Set-Up ##
+## Example ##
 ```
 $ compileall
 $ cat testtext
