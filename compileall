@@ -1,0 +1,7 @@
+#!/bin/bash
+
+gcc -o keygen keygen.c
+gcc -o otp_enc client_enc.c
+gcc -o otp_dec client_dec.c
+gcc -pthread -o otp_enc_d server_enc.c
+gcc -pthread -o otp_dec_d server_dec.c
